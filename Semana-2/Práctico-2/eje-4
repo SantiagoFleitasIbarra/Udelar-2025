@@ -1,0 +1,15 @@
+4. Suponga que a, b y c son variables enteras y se ingresan los siguientes datos por la entrada
+estándar:
+
+1 2
+3 4
+
+Indique cuál o cuáles de las siguientes secuencias de instrucciones no producirá los valores
+
+a = 1, b = 2 y c = 3:
+
+□ read(a); readln(b); read(c) || Sí
+□ readln (a,b,c) || Sí
+□ read(a,b,c) || Sí
+□ read(a); read(b); readln; read(c) || Sí
+□ readln(a); readln(b); readln(c) || No

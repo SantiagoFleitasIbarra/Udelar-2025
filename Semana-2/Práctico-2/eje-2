@@ -1,0 +1,18 @@
+2. Dada la siguiente declaración de variables:
+
+var
+    a, b, c: integer;
+    x, y, z: real;
+
+Suponga que se ingresan los siguientes datos por la entrada estándar:
+
+3 | 2.3 | -6.5
+1 | 5   | 2.1
+
+Para cada una de las siguientes secuencias de instrucciones, indique si se ejecutan correctamente o si se produce
+error en tiempo de ejecución. En caso afirmativo, indique en qué
+instrucción se produce el error.
+
+i) read(x,y,z); read(a,b,x) || Se ejecuta correctamente 
+ii) read(a,x,y); read(b,z,c) || Se ejecuta correctamente
+iii) readln(a,x); read(b,c,y,z) || Se ejecuta correctamente

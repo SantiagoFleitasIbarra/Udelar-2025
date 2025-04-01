@@ -1,0 +1,42 @@
+5. Dado el siguiente programa:
+
+program charOrd;
+
+var a, b, c, d : char;
+    r1, r2 : integer;
+    resu : real;
+
+begin
+
+    read (a, b, c, d);
+    r1 := ord(a) - ord('0');
+    r2 := (ord(c) - ord('0')) * 10 + (ord(d) - ord('0'));
+    resu := r1 + r2 / 100;
+    writeln ('Valor ingresado: ', resu:4:2)
+
+end.
+
+Suponga que se ejecuta dicho programa con los siguientes datos ingresados por la entrada
+estándar:
+
+3.14
+
+¿Qué se desplegará en la salida estándar cuando se ejecute el programa? Anticipe cuál va
+a ser la salida. Después, ejecútelo en máquina y compare lo que esperaba con la salida que
+se muestra.
+
+La salida que se espera cuando el usuario ingresa 3.14 será:
+
+Primero el programa leera la entrada almacenando los caracteres en las variables a, b, c y d.
+a = '3'
+b = '.'
+c = '1'
+d = '4'
+
+Después dicho programa le asignará valores a r1 y r2, calculando las expresiones del lado derecho.
+r1 := ord('3') - ord('0') = 3
+r2 := (ord('1') - ord('0')) * 10 + (ord('4') - ord('0')) = 14
+resu := 3 + 14 / 100 = 3.14
+
+Para finalizar mostrando el resultado en pantalla.
+Nota: El formato 4:2 indica que se deben imprimir 4 caracteres en total, con 2 decimales.

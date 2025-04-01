@@ -1,0 +1,24 @@
+1. Considere la siguiente secuencia de instrucciones y que todas las variables se han declararado
+como variables enteras:
+
+read(x,y,z);
+readln(a);
+readln(b,c);
+read(d);
+
+Suponga que se ejecuta dicha secuencia con los siguientes datos ingresados por la entrada
+estándar:
+
+8 7 2 1 3
+1 4 4 6 2
+3 7
+
+Indique con qué valores quedan las variables a, b, c, d, x, y, z.
+
+x = 8
+y = 7
+z = 2
+a = 1
+b = 1
+c = 4
+d = 3

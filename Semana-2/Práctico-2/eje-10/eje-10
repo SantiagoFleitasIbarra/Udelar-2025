@@ -1,0 +1,13 @@
+10. Con el resultado del ejercicio 11 del Práctico 1, escriba un programa en Pascal para determinar la raíz 
+cuadrada de un número real positivo a mediante el cálculo de a^0,5. El
+programa deberá leer el valor para a por la entrada estándar. Como resultado, exhiba por
+la salida estándar el valor de a, el valor de a^0,5, y el valor de sqrt(a) (el cual se calculará
+con la función predefinida). Incluya mensajes de salida con etiquetas descriptivas para el ingreso y el despliegue de datos.
+
+Ejemplo:
+
+Entrada      ||       Salida
+             ||
+12.7         ||       Valor introducido: a = 1.2700000000e+01
+             ||       Raiz cuadrada calculada = 3.5637059362e+00
+             ||       Valor de Sqrt (a) = 3.5637059362e+00
