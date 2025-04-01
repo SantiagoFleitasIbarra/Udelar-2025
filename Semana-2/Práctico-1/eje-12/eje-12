@@ -1,0 +1,15 @@
+12. En este ejercicio suponga que los datos de entrada serán siempre válidos, los programas
+a implementar no necesitan efectuar ese control. Verifique que los programas definidos
+funcionen correctamente para diferentes datos de entrada. Aplique todas las herramientas
+conceptuales y de Pascal que ha aprendido hasta el momento.
+
+i) Escriba un programa que calcule el período de un péndulo de longitud l y emita el
+resultado en la salida estándar. El período de un péndulo está dado por la siguiente
+ecuación t = 2 x pi x sqrt(l/g) donde pi = 3,14, g = 9,8 y l es leído de la entrada
+estándar.
+
+ii) Escriba programa que calcule el área de un triángulo cuyos lados son de longitud a,
+b y c (los cuales serán leidos de la entrada estándar) y emita el resultado en la salida
+estándar. El área A de un triángulo se puede calcular a partir de sus lados usando la
+fórmula:
+A = sqrt(s x (s - a) x (s - b) x (s - c)) donde s = (a + b + c)/2

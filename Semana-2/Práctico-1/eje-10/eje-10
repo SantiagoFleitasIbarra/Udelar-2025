@@ -1,0 +1,45 @@
+10. Para cada uno de los siguientes programas en Pascal, trate de anticipar cuál va a ser la
+salida que emitirá al ejecutarlo. Después, ejecútelo en máquina y compare lo que esperaba
+con la salida que se exhibe. Ejecute el segundo programa varias veces, y use números tanto
+positivos como negativos, con partes fraccionarias mayores, menores, y exactamente iguales
+que 0.5. Cuando el programa espere el dato de entrada, introduzca su número real y digite
+ENTER.
+
+PROGRAM Muestra1;
+
+CONST
+    pi = 3.1415926535;
+    r1 = 2.0;
+    r2 = 5.0;
+
+VAR
+    area: Real;
+
+BEGIN
+
+    area := pi * r1 * r1;
+    writeLn (r1, area);
+    area := pi * sqr (r2);
+    writeLn (r2, area)
+
+END.
+
+----------------------------------------------------------------
+
+PROGRAM Muestra2;
+
+CONST
+    medio = 0.5;
+
+VAR
+    num : Real;
+    a, b : Integer;
+
+BEGIN
+
+    readLn (num);
+    a := round (num);
+    b := trunc (num + medio);
+    writeLn (num, a, b)
+
+END.

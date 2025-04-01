@@ -1,0 +1,12 @@
+11. Considere las siguientes dos propiedades:
+i) ln(a^b) = b × ln(a)
+ii) e^ln(x) = x
+
+donde a y b son reales y a > 0.
+
+Utilizando dichas propiedades, el operador de multiplicación (∗) y las funciones estándar
+de Pascal ln y exp escriba una expresión en Pascal que produzca el valor de a^b. Luego
+escriba un programa que evalúe dicha expresión y emita el resultado en la salida estándar.
+Los valores para a y b serán leidos desde la entrada estándar.
+La descripción de las funciones exp y ln se encuentra en el Apéndice D del libro del curso,
+bajo el título Funciones y Procedimientos Estándar (pag. 584).
