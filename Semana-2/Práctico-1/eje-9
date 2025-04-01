@@ -1,0 +1,22 @@
+9. ¿Cuál será la salida del siguiente programa al ejecutarlo en Pascal estándar? ¿y en FreePascal?
+
+PROGRAM Verificar;
+
+VAR
+    i : Integer;
+    r : Real;
+
+BEGIN
+
+    r := i + 1;
+    writeLn (i,r)
+
+END.
+
+En Pascal estándar, el compilador no permite usar una variable sin inicializar. 
+Seguramente el código no compile y muestre un error indicando que 
+i no tiene un valor asignado antes de usarse.
+
+Free Pascal permite ejecutar el código, pero como i no 
+tiene un valor asignado, tomará un valor basura (cualquier número aleatorio en memoria). 
+Entonces, r tendrá un valor inesperado y la salida será impredecible.

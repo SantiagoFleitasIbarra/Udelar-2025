@@ -1,0 +1,23 @@
+1. Identificadores.
+
+(a) Determine cuáles de los siguientes identificadores son válidos:
+□ Promedio - Sí
+□ A1234 - Sí
+□ Program - No
+□ 1234A - No
+□ Can Can - No
+□ $XYZ - No
+□ A*b - No
+□ Jorge - Sí
+□ 506-74-3981 - No
+□ 4 x2 - No
+
+(b) Explique por qué no sería correcto usar los siguientes identificadores para sus definiciones
+i) 1986 - No empieza con una letra
+ii) Vel*Tiempo - Tiene un carácter no válido
+iii) End - Palabra Reservada
+iv) 1End - No empieza con una letra
+v) Integer - Tipo de datos
+vi) Var - Palabra Reservada
+vii) Sqrt - Palabra Reservada (Función)
+viii) $EFECTIVO - Carácter no válido

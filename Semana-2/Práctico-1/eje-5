@@ -1,0 +1,9 @@
+5. Para cada una de las siguientes expresiones, determine su tipo y evalúela (calcule su valor).
+i) 6 DIV 2 - 6 MOD 5 || 2 - Integer
+ii) 14 MOD 2 * 6 + 3 || 3 - Integer
+iii) 3 + 14 MOD (2 * 3) || 5 - Integer
+iv) 3.2 + 14 MOD (2 * 3) || 5.2 - Real
+v) 5 MOD 8 + 8 MOD 5 || 8 - Integer 
+vi) 7 MOD 2 + 13 DIV 3 - 2.5 || 2.5 - Real
+vii) 6 - 2 MOD (1 + 4) + 5 || 9 - Integer
+viii) 6 - 2.1 * 3 + 1 ||   0.70 - Real

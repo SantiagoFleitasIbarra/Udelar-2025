@@ -1,0 +1,14 @@
+4. Dada la siguiente declaración de variables:
+
+VAR
+    temp, valor : Integer;
+    num, suma : Real;
+
+Determine cuáles de las siguientes instrucciones de asignación son válidas.
+□ num := temp + valor - Sí
+□ valor := num + temp - No
+□ num := suma - Sí
+□ valor := num + 3 - No
+□ num := valor / temp - Sí
+□ valor := num / temp - No
+□ num := num DIV valor - No

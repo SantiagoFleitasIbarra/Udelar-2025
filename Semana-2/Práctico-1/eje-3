@@ -1,0 +1,44 @@
+3. Valores válidos de tipos básicos.
+
+(a) Determine cuáles de los siguientes ejemplos son valores válidos de tipo entero en
+Pascal.
+□ 189 - Sí
+□ -2.5 - No
+□ ‘33’ - No
+□ 6,632 - No
+□ -5555 - Sí
+□ 2.5e03 - No
+□ 199. - No
+□ +199 - Sí
+□ maxint - Sí
+
+(b) Determine cuáles de los siguientes ejemplos son valores válidos de tipo real en Pascal.
+□ -0.01 - Sí
+□ .025 - No
+□ -3.6 - Sí
+□ 3.6e-06 - Sí
+□ 3.e-06 - No
+□ +8.3e2 - Sí
+□ 1.0e1. - No
+□ maxreal - No
+
+(c) Determine cuáles de los siguientes ejemplos son valores válidos de tipo caracter en
+Pascal.
+□ A - No
+□ 'A' - Sí
+□ 'CAT' - No
+□ '8' - Sí
+□ '?' - Sí
+□ '??' - No
+
+(d) Determine cuáles de las siguientes valores pueden aparecer en una declaración de
+constante. Determine el tipo de cada uno de ellos.
+□ 'e' - Sí - Char
+□ e - No
+□ false - Sí - Boolean
+□ 999 - Sí - Integer
+□ 3.e - No
+□ -maxint - Sí - Integer
+□ -0.000 - Sí - Real
+□ '?' - Sí - Char
+□ ! - No

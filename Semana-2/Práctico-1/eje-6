@@ -1,0 +1,23 @@
+6. Dada la siguiente declaración de variables:
+
+VAR
+    acosto, bcosto, ccosto, dcosto: real;
+
+Considere las siguientes instrucciones de asignación que inicializan dichas variables:
+
+acosto := 4.0;
+bcosto := 1.0;
+ccosto := -2.0;
+dcosto := 5.5
+
+Evalúe cada una de las siguientes expresiones:
+i) sqrt (16) || 4.0
+ii) trunc (-13.8) || -13
+iii) round (10.7) || 11
+iv) sqr (5) || 25
+v) round (-3.5) || -4
+vi) abs (-12) || 12
+vii) trunc (10.1) || 10
+viii) trunc (8.6) - round (8.6) || -1
+ix) sqrt (acosto / bcosto - ccosto + dcosto - 2.5) || 3.0
+x) trunc (dcosto) * abs (ccosto * (bcosto / acosto)) || 2.5

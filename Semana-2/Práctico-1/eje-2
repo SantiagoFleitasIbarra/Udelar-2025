@@ -1,0 +1,17 @@
+2. Declaraciones de constantes y variables.
+
+(a) Determine cuáles de las siguientes declaraciones de constantes son válidas:
+□ CONST impuesto = 0.09; - Sí
+□ CONST pi := 3.14; - No
+□ CONST diez = 9; - Sí
+□ $Acalif := 90; - No
+
+(b) Determine cuáles de las siguientes declaraciones de variables son válidas.
+□ VAR num1, num2 : Real; - Sí
+□ VAR num1; num2 : Integer; - No
+□ VAR total, suma, cuenta :
+Integer, Real; - No   
+□ VAR idestudiante, 
+numsegsocial : Integer; - Sí
+□ VARnum1, num2 : Real; - No
+□ var num1, num2:Integer; - Sí

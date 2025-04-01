@@ -1,0 +1,5 @@
+8. Para cada una de las siguientes expresiones, determine su tipo y evalúela (calcule su valor).
+i) 5 + sqr(3) - 4 + trunc(3.6 - 2.1) || 11 - Integer
+ii) 3 * sqrt(8 MOD 6 * 10 DIV 5) || 6.0 - Real
+iii) 6 + 9 * 8 DIV 2 * round(1.362) - 2 * 3 || 36 - Integer
+iv) trunc(12 / 5 * sqrt(4 + 4 * 3) / 4) || 2 - Integer

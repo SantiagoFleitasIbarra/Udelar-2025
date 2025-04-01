@@ -1,0 +1,17 @@
+7. Dada la siguiente declaración de variables:
+
+VAR
+    num, suma, total : Integer;
+    valor : Real;
+    car1, car2 : Char;
+
+Determine cuáles de las siguientes instrucciones de asignación son válidas.
+□ num := num + num || Sí
+□ num := suma / total || No
+□ suma := num / total || No
+□ valor := total || Sí
+□ valor := total * num + suma || Sí
+□ valor := total + car1 || No
+□ car2 := car1 || Sí
+□ car2 := car1 + 1 || No
+□ car2 := ‘car1’ || No
