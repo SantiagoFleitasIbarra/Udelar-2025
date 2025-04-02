@@ -1,0 +1,23 @@
+3. Indique el valor final de la variable sum al finalizar la ejecución de cada uno de los siguientes
+fragmentos de código. Suponga que todas las variables son enteras.
+
+(a) 
+sum := 0;
+j := 10;
+for ind := 1 to 5 do
+begin
+    sum := sum + 2 * ind + 1 + j;
+    j := j - 4;
+end;
+
+Valor final de la variable sum será: 45
+
+(b) 
+const TOTAL = 4;
+....
+sum := 0;
+for ind := 1 to TOTAL do
+    for j := 1 to ind do
+        sum := sum + ind + j;
+
+Valor final de la variable sum será: 50
