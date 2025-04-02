@@ -1,0 +1,15 @@
+3. Considere la siguiente instrucción:
+
+if (calif >= 90) or (calif < 60) then
+    write ('Extrema')
+else
+    write ('Media')
+
+Indique qué valor se exhibe al ejecutarla, según el valor de calif.
+
+calif        Resultado
+90           Extrema
+60           Media
+0            Extrema
+70           Media
+-90          Extrema

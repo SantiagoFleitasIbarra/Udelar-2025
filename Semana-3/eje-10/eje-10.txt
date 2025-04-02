@@ -1,0 +1,32 @@
+10. El costo de enviar por correo un paquete es
+
+$77 para paquetes que pesan hasta un kilogramo (inclusive)
+
+$77 más $56 por kilogramo adicional o fracción para paquetes que pesan más de un kilogramo.
+
+Escriba un programa en Pascal que, lea de la entrada estándar el peso de un paquete como
+un número real de kilogramos y exhiba en la salida estándar dicho peso junto al costo del
+envío, según se muestra en los siguientes ejemplos. Incluya mensajes de salida con etiquetas
+descriptivas para el ingreso y el despliegue de datos.
+
+Ejemplos
+
+Ingrese peso del paquete: 0.50
+Peso   Costo
+0.50   $77
+
+Ingrese peso del paquete: 1.00
+Peso   Costo
+1.00   $77
+
+Ingrese peso del paquete: 1.01
+Peso   Costo
+1.01   $133
+
+Ingrese peso del paquete: 3.00
+Peso   Costo
+3.00   $189
+
+Ingrese peso del paquete: 3.40
+Peso   Costo
+3.40   $245

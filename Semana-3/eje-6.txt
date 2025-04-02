@@ -1,0 +1,35 @@
+6. Considere el siguiente programa:
+
+program Pr3Ej6;
+
+var x, y, z : Integer;
+
+begin
+    x := 10;
+    y := 11;
+    z := 12;
+
+    if (x > y) or (z > y) then
+    if x > z then
+    if y > z then
+    writeln ('Termine.')
+    else writeln ('No termino aun.')
+    else writeln ('Nunca llega aqui.')
+
+end.
+
+(a) Indique qué se exhibirá en la salida estándar al ejecutarlo. Después, ejecútelo en máquina y compare lo que 
+esperaba con la salida que se exhibe.
+
+Yo creo que saldrá el último else correspondiente al segundo if... Ya que cumple la cond1 es Verdadera, pero
+el segundo if (x > z) no lo cumple, así que saldrá su correspondiente else... Que es "Nunca llega aqui." 
+
+(b) Reescriba el programa anterior con una indentación adecuada.
+
+Dicho programa reescrito está ubicado en: Ejemplos-Prueba/eje-prueba-prac3/eje-6/Pr3Ej6.pas
+
+(c) Asumiendo que las expresiones booleanas se evalúan por circuito corto, diga si la
+expresión z > y es evaluada.
+
+Sí, (z > y) se evalúa, ya que la primera condición (x > y) es False, 
+obligando a que el programa evalúe la segunda (z > y).

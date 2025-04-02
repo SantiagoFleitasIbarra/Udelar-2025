@@ -1,0 +1,9 @@
+4. Suponga que a y b son variables enteras. Considere las siguientes instrucciones if anidadas:
+
+if a > b then
+    if a > c then
+        write ('a es el grande')
+
+Escriba una sola instrucción if que sea equivalente a esta pero que no contenga otra instrucción if anidada.
+
+// Dicha respuesta está en Ejemplos-Prueba/eje-prueba-prac3/eje-4/eje4.pas //

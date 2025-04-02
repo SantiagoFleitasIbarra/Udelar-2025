@@ -1,0 +1,11 @@
+2. Indique el valor de cada una de las siguientes expresiones para x = 0, según el tipo de
+evaluación utilizado. Escriba true, false o error según corresponda.
+
+Circuito corto        Circuito completo        Expresión
+
+    False                  Error               (x <> 0) and (abs(x)/x <> 1)
+    Error                  Error               (x = 0) and (abs(x)/x <> 1)
+    Error                  Error               (abs(x)/x <> 1) and (x <> 0)
+    Error                  Error               (x <> 0) or (abs(x)/x <> 1)
+    True                   Error               (x = 0) or (abs(x)/x <> 1)
+    Error                  Error               (abs(x)/x <> 1) or (x <> 0)

@@ -1,0 +1,42 @@
+8. 
+
+(a) Escriba una instrucción case que sea equivalente a las siguientes instrucciones if anidadas. 
+Suponga que todas las variables son de tipo integer.
+
+if k = 0 then
+    r := r + 1
+else
+    if k = 1 then
+        s := s + 1
+    else
+        if (k = 2) or (k = 3) or (k = 4) then
+            t := t + 2
+
+(b) Escriba una instrucción case que sea equivalente a las siguientes instrucciones if anidadas. 
+Suponga que la variable calif es de tipo char.
+
+if (calif = 'D') or (calif = 'F') then
+    writeln ('Trabajo deficiente.')
+else
+    if (calif = 'C') or (calif = 'B') then
+        writeln ('Buen trabajo.')
+    else
+        if calif = 'A' then
+            writeln ('Trabajo excelente.')
+
+(c) Sea el siguiente fragmento de programa:
+
+val := 3;
+case val of
+    1: writeln ('uno');
+    2: writeln ('dos')
+end;
+writeln ('Despues del case');
+
+¿Qué sucede en Free Pascal cuando es ejecutado? Suponga que la variable val es de
+tipo integer.
+
+□ Aborta. || No
+□ Da un mensaje de error. || No
+□ Despliega el mensaje ’Despues del case’. || Sí, despliega este mensaje
+□ Sucede otra cosa || No

@@ -1,0 +1,16 @@
+1. (a) Indique cuáles de las siguientes expresiones booleanas son verdaderas.
+
+□ 0 > 1 || False
+□ 'A' < 'Z' || True
+□ TRUE < FALSE || False
+□ ('b' < 'd') and (0 < 1) || True
+□ (5 < 1) or (0 > -1) || True
+
+(b) Suponiendo que p = TRUE, q = FALSE y r = TRUE, indique cuáles de las siguientes
+expresiones booleanas son verdaderas.
+
+□ not p or q and r || False
+□ q and p or not r || False
+□ not (p and q and r) || True
+□ p and q and (3 < 5) || False
+□ not (p and r) or (p and r) || True

@@ -1,0 +1,18 @@
+11. Escriba un programa en Pascal que lea de la entrada estándar un entero positivo n de
+exactamente cuatro dígitos y otro entero positivo d de exactamente 1 dígito. Si d aparece
+en la representación decimal de n, entonces exhiba en la salida estándar el número n con
+un signo de suma (+) debajo de cada aparición de d. En caso contrario, exhiba el mensaje
+’d no aparece en n’. Su programa no necesita controlar que los enteros ingresados tengan
+cada uno la cantidad de cifras indicada, asuma que así será. Incluya mensajes de salida con
+etiquetas descriptivas para el ingreso y el despliegue de datos.
+
+Ejemplos
+
+Ingrese un entero de 4 digitos: 1100
+Ingrese un entero de 1 digito: 0
+1100
+  ++
+
+Ingrese un entero de 4 digitos: 1100
+Ingrese un entero de 1 digito: 5
+5 no aparece en 1100

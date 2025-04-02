@@ -1,0 +1,14 @@
+12. Escriba un programa en Pascal que encuentre las raíces de la ecuación cuadrática ax^2 + bx + c = 0
+donde a, b, y c son valores reales leídos de la entrada estándar. El programa deberá imprimir
+en la salida estándar uno de los siguientes mensajes, según corresponda. Incluya mensajes
+de salida con etiquetas descriptivas para el ingreso y el despliegue de datos.
+
+Dos raices reales diferentes: xxx.xx y xxx.xx
+Dos raices reales iguales: xxx.xx
+Dos raices complejas diferentes: xxx.xx (+/-) i xxx.xx
+
+Ejemplo
+
+Ingrese coeficientes de la ecuación: 2.0 3.0 1.0
+
+Dos raices reales diferentes: -1.00 y -0.50

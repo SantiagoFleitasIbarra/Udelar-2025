@@ -1,0 +1,13 @@
+5. Considere el siguiente fragmento de programa:
+
+x := 7;
+y := 8;
+
+if x > y then
+    x := x + 1
+else
+    y := y + 1
+
+Determine el valor que queda en las variables x e y tras su ejecución
+
+Dicho valor será 9 - Demostración en Ejemplos-Prueba/eje-prueba-prac3/eje-5/eje5.pas

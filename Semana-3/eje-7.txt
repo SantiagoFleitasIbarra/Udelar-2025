@@ -1,0 +1,14 @@
+7. Indique qué se exhibirá en la salida estándar al ejecutar el siguiente fragmento de programa:
+
+var letra : Char;
+...
+letra := 'E';
+case letra of
+    'A': writeln ('El valor es 1.');
+    'E': writeln ('El valor es 5.');
+    'I': writeln ('El valor es 9.');
+    'O': writeln ('El valor es 15.');
+    'U': writeln ('El valor es 21.');
+end
+
+Dicho programa exhibirá en la salida lo siguiente: El valor es 5.
