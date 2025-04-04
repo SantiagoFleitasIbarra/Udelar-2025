@@ -1,0 +1,19 @@
+8. Escriba un programa en Pascal que lea de la entrada estándar un carácter c y un natural n.
+El programa debe desplegar un triángulo de n líneas formado por el carácter c (similar al
+que se muestra en el ejemplo). La primera línea debe tener n ocurrencias de c. La segunda
+línea debe tener n-1 ocurrencias de c (y así sucesivamente). La última línea debe tener
+1 ocurrencia de c. Incluya mensajes de salida con etiquetas descriptivas para solicitar y
+exhibir los valores.
+
+Ejemplo
+
+Ingrese un carácter c: &
+Ingrese un valor para n: 8
+&&&&&&&&
+&&&&&&&
+&&&&&&
+&&&&&
+&&&&
+&&&
+&&
+&

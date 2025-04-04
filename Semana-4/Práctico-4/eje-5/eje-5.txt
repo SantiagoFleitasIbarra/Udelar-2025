@@ -1,0 +1,7 @@
+5. Escriba un programa en Pascal que lea de la entrada estándar un número natural n y
+despliegue en pantalla todos los divisores naturales de n.
+
+Ejemplo
+
+n = 116
+1 2 4 29 58 116

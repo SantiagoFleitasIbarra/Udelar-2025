@@ -1,0 +1,10 @@
+12. Considere la función f tal que: f(x, y) = x^2 − 9xy + y^2 donde x, y son valores enteros,
+ambos en el entorno de −n a n (n entero positivo). Escriba un programa en Pascal que lea
+el valor para n de la entrada estándar y despliegue en la salida estándar el valor máximo
+de f(x, y) para x e y en ese entorno. Incluya mensajes de salida con etiquetas descriptivas
+para solicitar y exhibir los valores.
+
+Ejemplo
+
+Ingrese un valor para n: 4
+El valor máximo para x e y en el entorno de -4 a 4 es 176
