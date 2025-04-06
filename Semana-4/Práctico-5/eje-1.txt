@@ -1,0 +1,54 @@
+1. Indique qué se exhibirá en la salida estándar al ejecutar cada uno de los siguientes fragmentos de programa. 
+Suponga que todas las variables son enteras.
+
+(a)
+
+x := 10;
+while x > 0 do
+    x := x - 3;
+writeln (x)
+
+Salida: -2
+
+(b)
+
+suma := 0;
+i := 3;
+while i <= 7 do
+begin
+    suma := suma + i;
+    i := i + 2
+end;
+writeln (i, suma);
+
+Salida: 9 15
+
+(c) Asuma que se ingresan los siguientes valores en la entrada estándar: 10 5 12 -5
+
+suma := 0;
+read (x);
+while x >= 0 do
+begin
+    suma := suma + x;
+    read (x)
+end;
+writeln (suma);
+
+Salida: 27
+
+(d) Asuma que se ingresan los siguientes valores en la entrada estándar: 5 6 -3 -4 7 0 5 8 9
+
+n := 3;
+suma := 0;
+i := 0;
+while i < n do
+begin
+    read (valor);
+    if valor > 0 then
+        suma := suma + valor
+    else
+        i := i + 1
+end;
+writeln (suma, i, valor);
+
+Salida: 18 3 0

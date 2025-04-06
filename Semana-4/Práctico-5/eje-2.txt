@@ -1,0 +1,49 @@
+2. Indique qué se exhibirá en la salida estándar al ejecutar cada uno de los siguientes fragmentos de programa.
+Suponga que todas las variables son enteras.
+
+(a)
+
+a := 6;
+b := 5;
+repeat
+    a := a + 1
+until a > b;
+writeln (a);
+
+Salida: 7
+
+(b) 
+
+i := 0;
+repeat
+    writeln (i)
+until i = 0;
+
+Salida: 0
+
+(c)
+
+i := 10;
+j := 5;
+repeat
+    i := i - 1;
+    j := j + 1;
+    writeln (i, j);
+until i < j;
+
+9 6
+8 7
+7 8
+
+(d) Asuma que se ingresan los siguientes valores en la entrada estándar: 10 7 1 -1 7 8
+
+read(i, j);
+repeat
+    read(x);
+    i := i - x;
+    j := j + x;
+    writeln (i, j, x);
+until (i < j) or (x < 0);
+
+9 8 1
+10 7 -1
