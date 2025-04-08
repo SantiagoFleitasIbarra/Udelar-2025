@@ -1,0 +1,8 @@
+7. Escriba un programa en Pascal que determine si un número n es primo o no, siendo n
+un entero positivo leído de la entrada estándar. Exhiba un mensaje de salida indicando el
+resultado. Incluya mensajes de salida con etiquetas descriptivas para solicitar los valores.
+
+Ejemplo
+
+Ingrese un entero positivo: 3
+Es primo

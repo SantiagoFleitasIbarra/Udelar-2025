@@ -1,0 +1,19 @@
+10. Todo número natural positivo num tiene una descomposición única de la forma num = 2^n * val, 
+donde val es un número natural impar y n >= 0. Escriba un programa en Pascal
+que lea de la entrada estándar un entero positivo num, calcule y exhiba los correspondientes
+valores de val y n. Incluya mensajes de salida con etiquetas descriptivas para solicitar los
+valores.
+
+Ejemplos
+
+Ingrese un número natural positivo: 12
+12 = 2^2 * 3
+
+Ingrese un número natural positivo: 36
+36 = 2^2 * 9
+
+Ingrese un número natural positivo: 7
+7 = 2^0 * 7
+
+Ingrese un número natural positivo: 8
+8 = 2^3 * 1

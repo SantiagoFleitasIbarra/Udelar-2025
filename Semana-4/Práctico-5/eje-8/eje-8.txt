@@ -1,0 +1,22 @@
+8. Se desea implementar un programa que realice las funciones de una calculadora simple. Los
+datos de entrada son una secuencia de enteros sin signo y los operadores +, *, / y -, seguida
+de un signo =. Cada entero de la entrada está seguido por un operador salvo el último que
+está seguido por el símbolo =. Los operadores se aplican en el orden en que aparecen sin
+importar la precedencia. Si bien se ingresa el operador de la división con el símbolo /, el
+comportamiento debe ser el de DIV. Asuma que se ingresa al menos un número.
+
+(a) Escriba un programa en Pascal que resuelva lo pedido, suponiendo que no hay espacios
+en la entrada.
+
+Ejemplo
+
+4+3/2*8-4=
+20
+
+(b) Escriba un programa en Pascal que resuelva lo pedido, suponiendo que cada entero
+está separado del símbolo que lo sigue por 0 o más espacios.
+
+Ejemplo
+
+4 + 3/ 2 * 8- 4 =
+20

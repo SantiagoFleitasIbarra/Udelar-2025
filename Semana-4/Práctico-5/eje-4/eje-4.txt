@@ -1,0 +1,16 @@
+4. Suponga que se ingresa una secuencia de números enteros positivos que debe ser leída de
+la entrada estándar. La secuencia contiene al menos un número entero positivo y se indica
+su fin con el entero -1. Para los siguientes programas responda: ¿cuál es la instrucción de
+iteración más adecuada para utilizar (for, while, repeat)? ¿Por qué?
+
+Respuesta:
+La instrucción de iteración más adecuada para este caso es repeat en Pascal, porque:
+No sabemos cuántos números se van a ingresar (cantidad indefinida).
+Se detiene cuando aparece un valor específico (-1), lo que implica una condición de parada basada en el valor de entrada y no en una cantidad fija.
+repeat: se ejecuta al menos una vez, y es útil si se garantiza que habrá al menos un número positivo, como dice el enunciado.
+
+(a) Escriba un programa en Pascal que determine la suma y el promedio de todos los
+enteros positivos leídos. Exhiba ambos resultados en la salida estándar.
+
+(b) Escriba un programa en Pascal que determine el número más grande y el más pequeño
+de todos los enteros positivos leídos. Exhiba ambos resultados en la salida estándar.

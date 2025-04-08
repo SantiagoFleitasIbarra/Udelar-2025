@@ -1,0 +1,12 @@
+9. Escriba un programa en Pascal que determine y exhiba la desviación estándar de n números
+reales positivos. Los números deben ser leídos de la entrada estándar, donde se ingresará un
+número negativo al final como centinela. La desviación estándar de un conjunto de números
+x1, x2, ..., xn se define como la raíz cuadrada de la expresión s/n−a^2 donde a es el promedio
+de los valores xi ((x1 + x2 + ... + xn)/n) y s es la suma de los cuadrados de los valores xi
+(x1^2 + x2^2 + ... + xn^2). Incluya mensajes de salida con etiquetas descriptivas para solicitar
+y/o exhibir los valores.
+
+Ejemplo
+
+25.0 23.0 22.0 21.0 17.0 9.0 6.0 5.0 -1.0
+La desviación estándar es 7.60

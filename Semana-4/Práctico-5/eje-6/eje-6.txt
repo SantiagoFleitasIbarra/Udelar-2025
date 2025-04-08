@@ -1,0 +1,10 @@
+6. Dado un fragmento de texto que debe ser leído de la entrada estándar, todo en una línea,
+y terminado por el caracter $ (centinela), escriba un programa en Pascal que determine
+y exhiba las consonantes y vocales que aparecen duplicadas en forma contigua. Asuma
+que todas las letras ingresadas son minúsculas. Incluya mensajes de salida con etiquetas
+descriptivas para solicitar y exhibir los valores.
+
+Ejemplo
+
+Ingrese un texto: llama al chico que lee$
+Las consonantes y vocales duplicadas son: ll ee

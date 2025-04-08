@@ -1,0 +1,27 @@
+5. Se desea implementar un programa que calcule el saldo final de una cuenta. Suponga que
+los datos son leídos de la entrada estándar y que constan de renglones. El primer renglon
+contiene el saldo inicial de la cuenta. Los siguientes renglones contienen una letra y un valor
+real para indicar las transacciones (posiblemente ninguna). La letra puede ser la D para
+efectuar un depósito o la R para efectuar un retiro. El último renglón contiene únicamente la
+letra X. Escriba un programa en Pascal que determine el saldo exacto de la cuenta después
+de procesar las transacciones. Incluya mensajes de salida con etiquetas descriptivas para
+exhibir los valores.
+
+Ejemplos
+
+===========================
+
+1200.35
+D 64.12
+R 390.00
+R 289.67
+D 13.02
+R 51.07
+X
+El saldo final es 546.75
+
+===========================
+
+600.50
+X
+El saldo final es 600.5

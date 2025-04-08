@@ -1,0 +1,23 @@
+11. Escriba un programa en Pascal que lea de la entrada estándar dos enteros n y b, calcule
+y exhiba la parte entera del logaritmo de n en base b. Dicho resultado es un entero k que
+cumple lo siguiente: b^k <= n < b^k+1. El algoritmo solo puede realizar divisiones y sumas.
+Asuma que los valores ingresados cumplen que n > 0 y b > 1. Incluya mensajes de salida
+con etiquetas descriptivas para solicitar y/o exhibir los valores.
+
+Ejemplos
+
+Ingrese numero: 1024
+Ingrese base: 2
+Resultado: 10
+
+Ingrese numero: 1020
+Ingrese base: 2
+Resultado: 9
+
+Ingrese numero: 8
+Ingrese base: 111
+Resultado: 0
+
+Ingrese numero: 300
+Ingrese base: 5
+Resultado: 3
