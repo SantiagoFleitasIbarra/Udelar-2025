@@ -11,10 +11,11 @@ begin
     n := 0;
     val := num;
 
-    repeat
+    while val mod 2 = 0 do
+    begin
         val := val div 2;
         n := n + 1;
-    until val mod 2 <> 0;
+    end;
 
     writeln(num:0, ' = 2^', n:0, ' * ', val:1);
 
