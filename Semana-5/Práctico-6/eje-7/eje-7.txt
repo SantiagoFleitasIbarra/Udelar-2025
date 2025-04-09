@@ -1,0 +1,22 @@
+7. Escriba un programa que lea dos enteros positivos m y n (entre 1 y 10), y exhiba para cada entero en el
+rango su correspondiente tabla de multiplicar. En caso de que m sea mayor que n no se exhibirá nada. 
+¿Qué estructuras de control corresponde utilizar para resolver el problema? Explique su respuesta.
+
+Ejemplo:
+
+Ingrese m: 5
+Ingrese n: 7
+
+>>> Tabla 5 <<<
+1*5 = 5
+2*5 = 10
+...
+10*5 = 50
+>>> Tabla 6 <<<
+1*6 = 6
+...
+10*6 = 60
+>>> Tabla 7 <<<
+1*7 = 7
+...
+10*7 = 70

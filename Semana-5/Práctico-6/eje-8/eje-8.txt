@@ -1,0 +1,9 @@
+8. Escriba un programa que lea dos enteros positivos m y n, y exhiba todos los números primos en el rango.
+En caso de que m sea mayor que n, no se exhibirá ninguno.
+
+¿Qué estructuras de control corresponde utilizar para resolver el problema? Explique su respuesta.
+
+Ejemplo:
+
+Ingrese dos enteros positivos: 10 31
+Los numeros primos entre 10 y 31 son: 11 13 17 19 23 29 31
