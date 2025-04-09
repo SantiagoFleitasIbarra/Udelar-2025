@@ -1,0 +1,12 @@
+9. Escriba un programa que lea dos enteros positivos m y n y exhiba todos los primos gemelos en el rango.
+Los primos gemelos son parejas de números primos con una diferencia entre sí de exactamente 2 unidades.
+En caso de que m sea mayor que n, no se exhibirá salida alguna.
+
+¿Qué estructuras de control corresponde utilizar para resolver el problema? Explique su respuesta.
+Ejemplo:
+
+Ingrese dos enteros positivos: 10 31
+Los primos gemelos entre 10 y 31 son:
+11 y 13
+17 y 19
+29 y 31
