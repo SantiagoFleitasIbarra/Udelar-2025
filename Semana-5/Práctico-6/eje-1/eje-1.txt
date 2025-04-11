@@ -1,0 +1,15 @@
+1. Escriba un programa que calcule el MCD (Máximo Común Divisor) para dos naturales m y n con m ̸= 0.
+¿Qué estructura de control se debe utilizar y por qué?
+
+Se recuerda que el máximo común divisor se define como:
+MCD(m, n) = máx{k : k es divisor de m y k es divisor de n}
+
+Se sugiere aplicar el algoritmo de Euclides que se basa en las siguientes igualdades:
+MCD(m, 0) = m
+MCD(m, n) = MCD(n, m mod n)
+
+Ejemplos:
+Ingrese m y n : 42 30
+El MCD es: 6
+Ingrese m y n : 132 168
+El MCD es: 12

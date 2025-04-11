@@ -1,0 +1,19 @@
+2. (a) Escriba un programa que lea una letra y una oración y despliegue la cantidad de palabras de la oración
+que terminan con la letra dada. Se asume que la oración es una secuencia de palabras separadas solo
+por espacios, y que terminan con el carácter punto (.). La oración siempre tiene al menos una palabra.
+
+Ejemplos:
+Letra: s
+Oración: Las cualidades indispensables para un buen cocinero no se conocen.
+La oración tiene 3 palabras que terminan con s
+
+Letra: r
+Oración: Si no le pides nada que no pueda hacer jamas hara lo que puede.
+La oración tiene 1 palabras que terminan con r
+
+Letra: o
+Oración: No basta tener buen ingenio lo principal es aplicarlo bien.
+La oración tiene 4 palabras que terminan con o
+
+(b) Escriba un programa que despliegue la cantidad de palabras que comienzan con la letra leida
+(c) Escriba un programa que despliegue la cantidad de palabras que contienen la letra una sola vez

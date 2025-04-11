@@ -1,0 +1,12 @@
+4. Escriba un programa que lea un entero positivo n y despliegue la raíz cuadrada de los n 
+primeros naturales primos.
+
+Ejemplo:
+Ingrese n: 4
+1: Primo: 2 Raiz Cuadrada: 1.41
+2: Primo: 3 Raiz Cuadrada: 1.73
+3: Primo: 5 Raiz Cuadrada: 2.24
+4: Primo: 7 Raiz Cuadrada: 2.65
+
+(a) Escriba una solución que utilice iteración condicional (while o repeat).
+(b) Escriba una solución que utilice una repetición for.

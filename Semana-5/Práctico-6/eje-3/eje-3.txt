@@ -1,0 +1,20 @@
+3. Escriba un programa que evalúe un polinomio para un valor dado.
+El usuario ingresa los siguientes datos:
+
+* un número real v
+
+* una secuencia de enteros no negativos an, an−1, . . . , a1, a0 que son los coeficientes del polinomio. El
+final de la secuencia está indicado por el centinela -1. Siempre se ingresará al menos un número antes
+del centinela.
+
+El polinomio en cuestión es:
+P(x) := anx^n + an−1x^n−1 + · · · + a1x + a0 y el programa debe desplegar en la salida el valor P(v).
+
+Para calcular el resultado se sugiere utilizar la regla de Ruffini-Horner :
+P(v) = (· · ·((anv + an−1)v + an−2)v + · · · + a1)v + a0
+
+¿Qué estructuras de control corresponde utilizar para resolver el problema? Explique su respuesta.
+Ejemplo:
+Ingrese x: 3
+Ingrese los coeficientes: 2 5 4 -1
+El valor del polinomio evaluado en 3.00 es 37.00

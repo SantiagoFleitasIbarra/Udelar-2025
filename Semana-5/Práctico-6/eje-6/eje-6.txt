@@ -1,0 +1,16 @@
+6. La compañía Riky Gamusino: vende actualmente 20 gamusinos al mes obtiene un beneficio de $30 por gamusino.
+gasta una cierta suma al mes en publicidad tiene costos de funcionamiento de $100 al mes que no dependen del
+volumen de ventas. si dobla la cantidad gastada en publicidad, las ventas se incrementan en un 50 por ciento.
+Escriba un programa que lea el gasto inicial en publicidad y despliegue una tabla que determine las ventas
+y el beneficio neto en función de tal gasto. La tabla comienza con el gasto inicial en publicidad leido de
+la entrada. Cada nueva fila dobla la cantidad gastada en publicidad. La tabla finaliza cuando el beneficio
+neto empieza a declinar. La salida debe incluir las cantidades hasta la primera vez que el beneficio neto
+disminuye.
+
+Ejemplo:
+Ingrese el gasto inicial en publicidad: 200
+Gastado Publicidad    Ventas     Beneficio Neto
+      200               20           300
+      400               30           400
+      800               45           450
+      1600              67           310

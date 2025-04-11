@@ -1,0 +1,13 @@
+5. Escriba un programa que lea un entero positivo K y despliegue una secuencia de cuadrados de enteros
+positivos consecutivos. La secuencia comienza con el entero 1 y termina cuando la diferencia entre un
+cuadrado y el anterior sea mayor que K.
+
+Ejemplo:
+Ingrese k: 40
+Secuencia de cuadrados:
+1 4 9 16 25 36 49 64 81 100 121 144 169 196 225 256 289 324 361 400 441
+
+(a) Escriba una solución que utilice iteración condicional (while o repeat).
+(b) Escriba una solución que utilice una iteración for. Sugerencia: note que la diferencia entre cuadrados
+consecutivos es siempre un nímero impar. A partir de esta observación, intente predecir el largo de la
+secuencia en función de K.
